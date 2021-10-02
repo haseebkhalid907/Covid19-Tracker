@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+/* .container{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+} */
+body{
+    margin: 0;
+    padding: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .width{
+    width: 30%;
+    height: 30%;
+} */
+
+.infected{
+    border-bottom: 10px solid rgb(110, 110, 226) !important;
+    /* box-shadow: 5px 10px #6e6ee2; */
+    box-shadow: 0px 2px 19px #a6a4a4 ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.recoverd{
+    border-bottom: 10px solid rgb(0, 255, 0) !important;
+    box-shadow: 0px 2px 19px #a6a4a4 ;
+}
+
+.deaths{
+    border-bottom: 10px solid rgb(255, 0, 0) !important;
+    box-shadow: 0px 2px 19px #a6a4a4 ;
+}
+
+.border{
+    border-radius: 20px;
+    padding: 15px;
+    margin: 22px;
+    text-align: center;
+    width: 80px;
+    /* box-shadow: rgb(110, 110, 226) !important; */
+}
+
+img{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 16px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.zoom {
+    transition: transform 0.2s ease;
   }
+
+.zoom:hover {
+   transform: scale(1.1); 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+select{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    /* padding: 8px; */
+    /* border-radius: 16px; */
+    border: 0 !important;
+    align-items: center;
+    letter-spacing: 0.00938em;
+    /* box-shadow: 0px 2px 19px #a6a4a4 ; */
+    outline:0 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.textc{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 19px #a6a4a4 ;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+    width: 80vw;
+}
+
+hr{
+    width: 60%;
+    padding: 0 !important;
+}
+
+
+.row{
+    /* flex-wrap: nowrap !important; */
 }
