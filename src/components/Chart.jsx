@@ -124,8 +124,7 @@ function Chart({ data:{confirmed,recovered,deaths} , country }) {
 
 
 
-// country selection wala
-    const barChart =
+// country selegiart =
      confirmed ? 
     ( <Bar 
         data={{
